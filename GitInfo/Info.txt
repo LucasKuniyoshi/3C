@@ -1,0 +1,3 @@
+git merge origin/NOVABRANCH (caso n de pra uinr a branch)
+
+git remote rm origin (TIRA A ORIGIN), git remote -v (VERIFICA)
