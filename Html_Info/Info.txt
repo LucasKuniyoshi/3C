@@ -1,1 +1,73 @@
+EXTENSÃO GITLENS => VE QUEM COMMITOU
 Ctrl + U => mostra o html da pagina web;
+
+<!DOCTYPE html> informa ao navegador q é um html
+
+<title>Minha estrutura de HTML</title> mostra as info da aba da página
+
+<head> configuração da página
+<body> tudo q aparece na página
+
+<h1,2,3,4,5,6> titulo
+<p> parágrafo
+
+<a> LINK
+<a href="https://www.google.com">Google</a>
+<a href="4_paragrafos.html">Arquivo 4</a>
+<p>Este link leva ao Google: <a href="https://www.google.com">acessar</a></p>
+
+Negrito
+<strong> ou <b> (notação mais antiga)
+<b>negrito</b>
+
+Itálico
+<em> ou <i>
+<i>itálico</i>
+
+Local
+<sub> ou <sup> 
+<p><sub>Exemplo</sub> teste - teste <sup>Exemplo</sup></p> (_-^ => fica em formato de escada)
+ 
+ CITA UMA CITAÇÃO DE ALGUMA REFERENCIA(COMEÇO DE PARÁGRAFO)
+<blockquote cite="https://www.google.com">Ser ou não ser, eis a questão</blockquote>
+
+IMAGEM
+<img src="assets/Barcelona.png" alt="Escudo barcelona"/>
+alt => denomina a imagem quando ela n puder ser buscada/encontrada
+
+ACENUAÇÃO
+Após o title => <meta charset="UTF-8"> (denota a gramática do html)
+
+TABELAS
+<table> TABELA
+<tr> LINHA 
+<th> COLUNA (CABEÇALHO)
+<td> DADO
+
+<table border="1px">
+            <tr>
+                <th>Identificador</th>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Matheus</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Alexia</td>
+                <td>24</td>
+            </tr>
+        </table>
+ 
+LISTAS
+<ol> LISTA ORDENADA
+<li> ELEMENTO DA LISTA
+
+<ol>
+     <li>Banana</li>
+     <li>Maça</li>
+     <li>Laranja</li>
+</ol>
