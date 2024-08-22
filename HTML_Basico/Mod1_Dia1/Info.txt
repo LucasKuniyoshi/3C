@@ -1,0 +1,134 @@
+EXTENSÃO GITLENS => VE QUEM COMMITOU
+Ctrl + U => mostra o html da pagina web;
+
+<!DOCTYPE html> informa ao navegador q é um html
+
+<title>Minha estrutura de HTML</title> mostra as info da aba da página
+
+<head> configuração da página
+<body> tudo q aparece na página
+
+<h1,2,3,4,5,6> titulo
+<p> parágrafo
+
+<a> LINK
+<a href="https://www.google.com">Google</a>
+<a href="4_paragrafos.html">Arquivo 4</a>
+<p>Este link leva ao Google: <a href="https://www.google.com">acessar</a></p>
+
+Negrito
+<strong> ou <b> (notação mais antiga)
+<b>negrito</b>
+
+Itálico
+<em> ou <i>
+<i>itálico</i>
+
+Local
+<sub> ou <sup> 
+<p><sub>Exemplo</sub> teste - teste <sup>Exemplo</sup></p> (_-^ => fica em formato de escada)
+ 
+ CITA UMA CITAÇÃO DE ALGUMA REFERENCIA(COMEÇO DE PARÁGRAFO)
+<blockquote cite="https://www.google.com">Ser ou não ser, eis a questão</blockquote>
+
+IMAGEM
+<img src="assets/Barcelona.png" alt="Escudo barcelona"/>
+alt => denomina a imagem quando ela n puder ser buscada/encontrada
+
+ACENUAÇÃO
+Após o title => <meta charset="UTF-8"> (denota a gramática do html)
+
+TABELAS
+<table> TABELA
+<tr> LINHA 
+<th> COLUNA (CABEÇALHO)
+<td> DADO
+
+<table border="1px">
+            <tr>
+                <th>Identificador</th>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Matheus</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Alexia</td>
+                <td>24</td>
+            </tr>
+        </table>
+ 
+LISTAS
+<ol> LISTA ORDENADA
+<ul> LISTA NORMAL
+<li> ELEMENTO DA LISTA
+
+<ol>
+     <li>Banana</li>
+     <li>Maça</li>
+     <li>Laranja</li>
+</ol>
+
+<ul>
+    <li>Motor</li>
+    <li>Porta</li>
+    <li>Janela</li>
+</ul>
+
+FORMULÁRIO
+method (COMO O FORM SERÁ ENVIADO P/ O SERVIDOR
+method="GET" (PEGA DADOS DO BANCO/BUSCA)
+method="POST" (ENVIA OS DADOS DO BANCO)
+
+action (ONDE SERÃO ENVIADOS ESSES DADOS)
+action="1_primeiro_html.html" (OS DADOS SÃO CADASTRADOS NA CLASSE ATUAL E SERÃO ENVIADOS/USADOS NA "1_primeiro_html.html"
+
+DIV
+for (ESPECIFICA O CAMPO DO LABEL)
+required (CAMPO OBRIGATŔIO)
+
+<div>
+	<label for="username">Nome do Usuário</label>
+</div>
+<div>
+	<input type="text" name="username" placeholder="Preencha o nome do seu usuário" required>
+</div>
+<div>
+	<label for="password">Senha</label>
+</div>
+<div>
+	<input type="password" name="password" placeholder="Digite sua senha" required>
+</div>
+<div>
+	<input type="submit" value="Enviar">
+</div> (type="submit" ENVIA AS INFO)
+
+id ("#" IDENTIFICADOR,DETERMINA QUE O ELEMENTO É ÚNICO)
+class (".", usada para repetição de elementos, várias cópias de um mesmo elemento)
+
+STYLE
+border: 1px solid red; (solid é o tipo da borda)
+
+CSS
+<link rel="stylesheet" href="css/styles.css">
+LINKA COM A CLASSE Q ESTAMOS E AVISA QUE UTILIZAREMOS A FOLHE DA ESTILOS CSS/STYLES.CSS
+
+<nav> barra de navegação, age como se fosse uma div, porém apresenta o navegador um propósito semântico
+=============================================
+NO STYELS.CSS
+
+*{ INSERE ESTILOS A TODOS OS ELEMENTOS QUE ESTÃO NA PÁGINA
+}
+bold ("b", negrito);
+text-decoration: none (retira o sublinhado/underline do item/link;
+position: absolut (consegue manipular a logo na nav)
+
+article> entre o header e o footer, onde estão as principais informações
+<footer> rodapé da página
+
+ESTRUTURA HTML
+Prioridades: Id > Class > p,h1,...
