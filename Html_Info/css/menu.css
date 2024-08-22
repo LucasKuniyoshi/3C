@@ -1,0 +1,44 @@
+/* geral */
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* barra de navegação */
+nav{
+    background-color: #303030;
+    border-bottom: 3px solid #101010;
+    height: 50px;
+}
+
+#logo{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold; /* negrito "b" */
+    text-decoration: none; /* retira o underline do item/link */
+    position: absolute; /* possibilita manusear a logo dentro da barra de navegacao (nav) */
+    top: 15px; /* posicionamento da logo dentro da nav */
+    left: 10px; /* posicionamento da logo dentro da nav */
+}
+
+#menu{
+    list-style: none; /* retira a estilizacao padrão do navegador */
+    float: right; /* joga pra direita */
+    margin-top: 17px;
+}
+
+.item{
+    display: inline-block; /* joga todos pra mesma linha */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item a{ /* muda o link dentro do item somente */
+    color: #FFF;
+    text-decoration: none;
+}
+
+.item a:hover{ /* sombreamento no item que passamos o mouse */
+    color: #CCC;
+    transition: .3s;
+}

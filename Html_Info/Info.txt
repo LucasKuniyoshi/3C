@@ -64,6 +64,7 @@ TABELAS
  
 LISTAS
 <ol> LISTA ORDENADA
+<ul> LISTA NORMAL
 <li> ELEMENTO DA LISTA
 
 <ol>
@@ -71,3 +72,57 @@ LISTAS
      <li>Maça</li>
      <li>Laranja</li>
 </ol>
+
+<ul>
+    <li>Motor</li>
+    <li>Porta</li>
+    <li>Janela</li>
+</ul>
+
+FORMULÁRIO
+method (COMO O FORM SERÁ ENVIADO P/ O SERVIDOR
+method="GET" (PEGA DADOS DO BANCO/BUSCA)
+method="POST" (ENVIA OS DADOS DO BANCO)
+
+action (ONDE SERÃO ENVIADOS ESSES DADOS)
+action="1_primeiro_html.html" (OS DADOS SÃO CADASTRADOS NA CLASSE ATUAL E SERÃO ENVIADOS/USADOS NA "1_primeiro_html.html"
+
+DIV
+for (ESPECIFICA O CAMPO DO LABEL)
+required (CAMPO OBRIGATŔIO)
+
+<div>
+	<label for="username">Nome do Usuário</label>
+</div>
+<div>
+	<input type="text" name="username" placeholder="Preencha o nome do seu usuário" required>
+</div>
+<div>
+	<label for="password">Senha</label>
+</div>
+<div>
+	<input type="password" name="password" placeholder="Digite sua senha" required>
+</div>
+<div>
+	<input type="submit" value="Enviar">
+</div> (type="submit" ENVIA AS INFO)
+
+id ("#" IDENTIFICADOR,DETERMINA QUE O ELEMENTO É ÚNICO)
+class (".", usada para repetição de elementos, várias cópias de um mesmo elemento)
+
+STYLE
+border: 1px solid red; (solid é o tipo da borda)
+
+CSS
+<link rel="stylesheet" href="css/styles.css">
+LINKA COM A CLASSE Q ESTAMOS E AVISA QUE UTILIZAREMOS A FOLHE DA ESTILOS CSS/STYLES.CSS
+
+<nav> barra de navegação, age como se fosse uma div, porém apresenta o navegador um propósito semântico
+=============================================
+NO STYELS.CSS
+
+*{ INSERE ESTILOS A TODOS OS ELEMENTOS QUE ESTÃO NA PÁGINA
+}
+bold ("b", negrito);
+text-decoration: none (retira o sublinhado/underline do item/link;
+
