@@ -1,0 +1,10 @@
+#background{
+    background-image: url("../img/Barcelona.png");
+    background-size: cover;
+    height: 345px;
+}
+
+h2{
+    color: rgb(24, 52, 212);
+    text-align: center;
+}

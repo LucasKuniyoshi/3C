@@ -1,0 +1,16 @@
+#primeiro-titulo{
+    font-family: Arial;
+    text-align: right;
+    text-decoration: underline;
+}
+
+#background h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+#segundo-titulo{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+}

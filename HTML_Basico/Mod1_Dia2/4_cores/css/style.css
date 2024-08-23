@@ -1,0 +1,25 @@
+h1{
+    color: aqua;
+    font-size: 60px;
+}
+
+.paragrafo{
+    color: #194258;
+    background-color: rgb(158, 128, 128);
+}
+
+#segundo-titulo{
+    color: rgb(145, 7, 145);
+}
+
+p{
+    color: red;
+}
+
+.box .paragrafo-box{
+    color: blue;
+}
+
+#primeiro-titulo{
+    color: magenta;
+}

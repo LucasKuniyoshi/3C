@@ -1,0 +1,12 @@
+#primeiro-titulo{
+    border: 1px solid black;
+    padding: 50px;
+}
+
+#segundo-titulo{
+    padding: 20px 100px 30px 30px;
+}
+
+h2{
+    background-color: pink;
+}

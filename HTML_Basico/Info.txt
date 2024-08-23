@@ -132,3 +132,10 @@ article> entre o header e o footer, onde estão as principais informações
 
 ESTRUTURA HTML
 Prioridades: Id > Class > p,h1,...
+
+Margin - Espaçamento externo do elemento, espaçamento entre os elementos do Html
+Border - componente visual, usado mais para a estilização do elemento
+Padding - Espaçamento interno do elemento
+
+MARGIN
+margin: 10px 20px 30px 40px (margin: Top Right Bottom Lef / Cima direita Baixo Esquerda)

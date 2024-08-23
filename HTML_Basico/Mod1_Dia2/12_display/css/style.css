@@ -1,0 +1,12 @@
+#background, #primeiro-titulo{
+    display: inline-block; /* Display - Como o elemento vai ser tratado no HTML */
+    width: 100px;
+}
+
+span{
+    display: block; /* TRANSFORMA O ELEMENTO SPAN EM BLOCO, MESMO ELE N SENDO */
+}
+
+h3{
+    display: none;
+}
