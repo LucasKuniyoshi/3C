@@ -138,4 +138,20 @@ Border - componente visual, usado mais para a estilização do elemento
 Padding - Espaçamento interno do elemento
 
 MARGIN
-margin: 10px 20px 30px 40px (margin: Top Right Bottom Lef / Cima direita Baixo Esquerda)
+margin: 10px 20px 30px 40px (margin: Top Right Bottom Lef / Cima Direita Baixo Esquerda)
+
+margin: 50px 100px; (Cima e Direita somente)
+
+PADDING
+padding: 20px 100px 30px 30px; MESMA COISA DO MARGIN TRBL
+
+letter-spacing (espaçamento das letras)
+
+POSITION
+Absolut - deixa o elemento livre na tela, se referencia de acordo com o pai dele. Permite sobrescrever este elemento em cima de outro.
+
+Relative - Permite posicionar o elemento tendo como referência sua posição inicial. O elemento absolute se refrencia somente pelo pai dele (normalmente o body) ou por outro elemento em position: relative
+
+Fixed - O elemento se mantes fixo na tela, mesmo com o scroll sendo utilizado.
+
+Unsplash - SITE DE IMAGENS

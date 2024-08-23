@@ -1,0 +1,99 @@
+/* Geral */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+h1, p{
+    text-align: center;
+}
+
+h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #4A87EB;
+}
+
+/* Galreia de imagens */
+.container{
+    max-width: 1200px; /* limita horizontalmente */
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* CARDS */
+.card{
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    border: 2px solid #4A87EB;
+    border-radius: 5px;
+    
+}
+/* Moldura da imagem*/
+.card-image{
+    height: 200px;
+    background-size: cover;
+    border-top-left-radius: 2.5px;
+    border-top-right-radius: 2.5px;
+}
+
+/* Imagem + Moldura*/
+#card1 .card-image{
+    background-image: url("../img/araracanga.webp");
+}
+#card2 .card-image{
+    background-image: url("../img/boi.webp");
+}
+#card3 .card-image{
+    background-image: url("../img/cachorro.webp");
+}
+#card4 .card-image{
+    background-image: url("../img/cobra.webp");
+}
+#card5 .card-image{
+    background-image: url("../img/galinha.webp");
+}
+#card6 .card-image{
+    background-image: url("../img/mico.webp");
+}
+#card7 .card-image{
+    background-image: url("../img/onca.webp");
+}
+#card8 .card-image{
+    background-image: url("../img/tucando.webp");
+}
+
+.btn{
+    display: block;
+    background-color: #4A87EB;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;/* transparent - borda q aparece só quando passa o mouse (hover)*/
+    font-weight: bold;
+    transition: .5s;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #4A87EB;
+    border-color: #4A87EB;
+}
+
+.card-description{
+    padding: 20px 10px;
+}
+
+#subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
