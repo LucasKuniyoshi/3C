@@ -155,3 +155,15 @@ Relative - Permite posicionar o elemento tendo como referência sua posição in
 Fixed - O elemento se mantes fixo na tela, mesmo com o scroll sendo utilizado.
 
 Unsplash - SITE DE IMAGENS
+
+JUSTIFY-CONTENT: ALINHA NA HORIZONTAL
+1 elemento: start / center / end /
++1 elemento: space-around / space-between / space-evenly(parte do meio pra borda)
+justify-content: space-evenly;
+
+ALIGN-ITEMS:
+align-items: stretch; ALONGA OS ELEMENTOS NA VERTICAL
+
+ <meta name="viewport"> VIEWPORT - INICIA A ADAPTAÇÃO DO SITE PARA DISPOSITIVOS MOBILE
+
+ICONS - FONTAWESOME
