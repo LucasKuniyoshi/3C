@@ -1,0 +1,153 @@
+/* geral */
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* barra de navegação */
+nav{
+    background-color: #000;
+    height: 50px;
+}
+
+#logo{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold; /* negrito "b" */
+    font-family: serif;
+    text-transform: uppercase;
+    text-decoration: none; /* retira o underline do item/link */
+    position: absolute; /* possibilita manusear a logo dentro da barra de navegacao (nav) */
+    top: 15px; /* posicionamento da logo dentro da nav */
+    left: 700px; /* posicionamento da logo dentro da nav */
+}
+
+#menu{
+    list-style: none; /* retira a estilizacao padrão do navegador */
+    float: right; /* joga pra direita */
+    margin-top: 17px;
+}
+
+.item{
+    display: inline-block; /* joga todos pra mesma linha */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item a{ /* muda o link dentro do item somente */
+    color: #FFF;
+    text-decoration: none;
+}
+
+.item a:hover{ /* sombreamento no item que passamos o mouse */
+    color: #CCC;
+    transition: .3s;
+}
+
+/* Geral */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+h1, p{
+    text-align: center;
+}
+
+h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #4A87EB;
+}
+
+/* Galreia de imagens */
+.container{
+    max-width: 1200px; /* limita horizontalmente */
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* CARDS */
+.card{
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    
+}
+/* Moldura da imagem*/
+.card-image{
+    height: 200px;
+    background-size: cover;
+    border-top-left-radius: 2.5px;
+    border-top-right-radius: 2.5px;
+}
+
+/* Imagem + Moldura*/
+#card1 .card-image{
+    background-image: url("../img/araracanga.webp");
+}
+#card2 .card-image{
+    background-image: url("../img/boi.webp");
+}
+#card3 .card-image{
+    background-image: url("../img/cachorro.webp");
+}
+#card4 .card-image{
+    background-image: url("../img/cobra.webp");
+}
+#card5 .card-image{
+    background-image: url("../img/galinha.webp");
+}
+#card6 .card-image{
+    background-image: url("../img/mico.webp");
+}
+#card7 .card-image{
+    background-image: url("../img/onca.webp");
+}
+#card8 .card-image{
+    background-image: url("../img/tucando.webp");
+}
+
+.btn{
+    display: block;
+    background-color: #000;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;/* transparent - borda q aparece só quando passa o mouse (hover)*/
+    font-weight: bold;
+    transition: .5s;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #000;
+    border-color: #000;
+}
+
+.card-description{
+    padding: 20px 10px;
+}
+
+#subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+#nike-logo{
+    height: 50px;
+    width: 69px;
+    position: absolute;
+    left: 15px;
+}
