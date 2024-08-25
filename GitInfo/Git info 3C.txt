@@ -1,0 +1,37 @@
+Pull request => foma de enviar códgo para o branch master
+Branch => Uma branch seria a versão de um projeto, possibilitando trabalhar com diferentes versões de um mesmo projeto
+Git => É uma ferramenta respoonsável pelo versionamento do código
+Github => Armazena os repositório para as diferentes versões do código
+Commit => Mensagem, anexa uma mensagem para identificar a versão do projeto
+Git Push => Envia as alterações do código para o repositório
+Git Pull => Puxa as alterações feitas do repositório para o local
+=======================================================
+git remote add origin https://gitlab.com/lucaskuni/FIrst.git
+
+======================================================
+
+Remover Origin => git remote -v (ve a versão do origin)
+git remote rm origin
+
+git commit a.txt -m "Estou enviando o arquivo de texto" (COMITA UM ARQUIVO DE CADA VEZ)
+
+git commit -a -m "Mensagem" (da o commit em todos os arquivos alterados)
+
+git rm b.txt (deletar arquivo)
+
+SEMPRE CRIAR A PARTIR DA MASTER(MAIN)
+git branch NOMEDABRANCH; (cria a branch)
+git branch -d NOMDEDABRANCH (deleta a branch)
+git branch --delete NOMDEDABRANCH (deleta a branch)
+
+git checkout NOMDEDABRANCH (muda para outra branch)
+git checkout -b NOMDEDABRANCH (muda e cria outra branch)
+
+git merge <nome> (une duas branches); USAR NA MASTER/MAIN E DAR O COMANDO git merge primeiro_branch PARA UNÍ-LA A MASTER (EM PROJETOS PESSOAIS)
+**SE ESTIVER TRABALHANDO EM ALGUMA BRANCH QUE NÃO SEJA A MATSER E ESTIVER NUMA VERSÃO MUITO ANTERIOR => DA UM GIT MERGE NA MASTER/MAIN ESTANDO DENTRO DA SUA VERSÃO ANTIGA. VAI ATUALIZAR SEM PRECISAR DAR O PULL
+
+git stash (lixeira) EXECUTE NA BRANCH Q ESTIVER PARA JOGAR AS FUNCIONALIDADES CRIADAS FORA
+git stash list (mostra a lista de stash)
+git stash apply NUMERO (tira da lixeira a funcionalidade criada na função NUMERO(Ex: 1) e reaplica no código
+git stash show -p NUMERO (mostra exatamente as funções alteradas/criadas)
+q (END)
