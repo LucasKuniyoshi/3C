@@ -308,7 +308,7 @@
   }
 
   #subscription-form {
-    max-width: 70%;
+    max-width: 70%; /*aumenta o form q tava em "gelo fino"*/
     margin-bottom: 2em;
   }
 
