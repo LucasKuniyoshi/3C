@@ -179,3 +179,13 @@ flex-flow: column-reverse wrap-reverse;
 align-items: end;
 align-content: space-between;
 justify-content: center;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*** para q os inputs n passem da largura dos elementos ***/
+  font-family: Helvetica;
+  background-color: #FAFAFA;
+}
+
+RESPONSVIDADE MOBILE - Html e CSS técnicas avançadas Seção 9 ep84(último) / Seção 11 tbm

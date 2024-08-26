@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /*para q os inputs n passem da largura dos elementos*/
   font-family: Helvetica;
   background-color: #FAFAFA;
 }
@@ -76,7 +76,7 @@
 
 /* SEPARADOR */
 .separator {
-  position: relative;
+  position: relative; /* PQ TEM ELEMENTOS COM POSITION ABSOLUT ALI DENTRO */
 }
 
 .separator .line {

@@ -237,6 +237,7 @@ p{
 .footer-link{
     display: inline-block;
     margin: 10px;
+    /*text-transform: uppercase;*/
 
 }
 
