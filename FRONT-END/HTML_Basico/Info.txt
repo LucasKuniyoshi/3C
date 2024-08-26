@@ -167,3 +167,15 @@ align-items: stretch; ALONGA OS ELEMENTOS NA VERTICAL
  <meta name="viewport"> VIEWPORT - INICIA A ADAPTAÇÃO DO SITE PARA DISPOSITIVOS MOBILE
 
 ICONS - FONTAWESOME
+
+flex-wrap: JOGA ELEMENTOS DA MESMA LINHA PARA BAIXO;
+flex-direction: row, column, row-reverse...
+
+FLEX-FLOW (flex-direction + flex-wrap)
+flex-flow: row wrap
+
+FLEXBOX EX24
+flex-flow: column-reverse wrap-reverse;
+align-items: end;
+align-content: space-between;
+justify-content: center;
