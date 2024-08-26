@@ -166,7 +166,7 @@ align-items: stretch; ALONGA OS ELEMENTOS NA VERTICAL
 
  <meta name="viewport"> VIEWPORT - INICIA A ADAPTAÇÃO DO SITE PARA DISPOSITIVOS MOBILE
 
-ICONS - FONTAWESOME
+ICONS - FONTAWESOME e BOOTSTRAP ICON (Install -> CDN -> link
 
 flex-wrap: JOGA ELEMENTOS DA MESMA LINHA PARA BAIXO;
 flex-direction: row, column, row-reverse...
@@ -189,3 +189,17 @@ justify-content: center;
 }
 
 RESPONSVIDADE MOBILE - Html e CSS técnicas avançadas Seção 9 ep84(último) / Seção 11 tbm
+
+FONTES - GOOGLE FONTS (PEGA O LINK E TACA NO HAED)
+
+SELECT
+<select name="interest">
+              <option value="" disabled selected>Selecione</option> <!-- PRIMEIRA OPÇÃO N É SELECIONÁVEL-->
+              <option value="apartment">Apartamentos</option>
+              <option value="house">Casas</option>
+              <option value="garden">Jardins</option>
+              <option value="other">Outro</option>
+</select>
+
+INPUT CSS
+outline: none; /* borda interna do input*/            

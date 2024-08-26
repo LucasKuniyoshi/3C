@@ -1,5 +1,5 @@
 :root {
-  --primary: #00baf2;
+  --primary: #eb1ccc;
   --secondary: #95989a;
   --text-color: #fff;
   --text-secondary: #000;
@@ -15,14 +15,14 @@
 /* Event form */
 #event-subscription {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../img/hrz-5.jpg");
+    url("../img/hrz-5.jpg"); /* APLICA UMA MASCARA DE FILTRO ESCURO NA IMAGEM / 0.8 - TRANSPARENCIA DE 80%*/
   background-position: center;
   background-size: cover;
-  height: 85vh;
+  height: 85vh; /* 85% da tela */
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: var(--text-color);
+  color: var(--text-color);/* PEGA COR DO ROOT */
 }
 
 #disclaimer h2,
@@ -81,7 +81,7 @@
   padding: 6px 8px;
   border-radius: 5px;
   border: none;
-  outline: none;
+  outline: none; /* borda interna do input*/
 }
 
 .btn {
@@ -92,11 +92,11 @@
   padding: 12px;
   border: none;
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.8; /* DIMINUI A OPACIDADE PARA Q QUANDO SE PASSE O MOUSE SOBRE O BOTAO, ELE ACENDA NO HOVER */
 }
 
 .btn:hover {
-  opacity: 1;
+  opacity: 1;/* BOTAO "ACENDE" QUADO PASSA O MOUSE */
 }
 
 /* Benefits section */
@@ -200,7 +200,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 5%;
+  gap: 5%; /* ESPAÇAMENTO INTERNO DO FLEXBOX DE DOIS ITEMS */
   margin-bottom: 4em;
 }
 
@@ -229,7 +229,7 @@
 }
 
 .detail-description ul {
-  list-style-position: inside;
+  list-style-position: inside; /* BOLINHAS DA LISTA FICAM PRA DENTRO, ALINHADAS COM O TITULO*/
 }
 
 .detail-description ul li {
