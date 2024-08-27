@@ -1,0 +1,105 @@
+h1{
+    color: red;
+}
+
+h4{
+    color: blue;
+}
+
+/* 2 - Sintaxe */
+
+/* TELA */
+@media screen and (max-width: 500px){
+    /* MAX-WIDTH = TELAS MENORES QUE ALGUMA RESOLUCAO*/
+    h1{
+        color: blue;
+    }
+}
+
+/* 3 - Outros modos */
+/* screen, print, speech, all*/
+
+/* IMPRESSÕES - NO Q FOR IMPRIMIR A PAGINA, ELA MUDA*/
+@media print and (max-width: 500px){ /* "IMPRIMIR DOCUMENTO */
+    h1{
+        color: green;
+    }
+}
+
+/* 4 - Todos os modos, all => (default)*/
+@media (max-width: 700px){ /* @media all = @media */
+    h2{
+        color: purple;
+    }
+}
+
+/* 5 - Mobile First */
+/* min-width => max-width */
+@media (min-width: 200px){
+    h2{
+        color: teal;
+    }
+}
+
+/* ORDERM DE PRIRIDADE DE BAIXO PARA CIMA,
+   QUEM ESTIVER MAIS EMBAIXO SE SOBRE SAI SOBRE A MEDIA QUERY DO MAIS A CIMA*/
+
+/* 6 - AND na media query*/
+@media (min-width: 300px) and (max-width: 400px){
+    h3{
+        font-size: 3em;
+    }
+}
+
+/* 7 - ORIENTATION */
+@media (orientation: landscape){ /* QUANDO O DISPOSITIVO ESTIVER NA HORIZONTAL */
+    h3{
+        color: brown;
+    }
+}
+
+/* 8 - OR na media query */
+@media (max-width: 200px) or (orientation: landscape){
+    h3{
+        font-size: 4em;
+    }
+}
+
+/* CUIDADO AO APLICAR MEDIA QUERY*/
+@media (min-width: 600px){
+    h4{
+        color: red;
+    }
+}
+
+/* 10 - BREAKPONTS */
+
+h5{
+    color: aqua;
+    font-size: 3em; 
+}
+
+/* 480px - 768px = tablet */
+@media (min-width: 480px){
+    h5{
+        color: burlywood;
+    }
+}
+/* 768px - 1024px = telas menores, laptops */
+@media (min-width: 768px){
+    h5{
+        color: cadetblue;
+    }
+}
+/* 1024px - 1200px = desktop */
+@media (min-width: 1024px){
+    h5{
+        color: coral;
+    }
+}
+/* 1200px e + => telas maiores, tvs */
+@media (min-width: 1200px){
+    h5{
+        color: darkorchid;
+    }
+}
