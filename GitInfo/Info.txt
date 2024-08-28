@@ -1,3 +1,13 @@
 git merge origin/NOVABRANCH (caso n de pra uinr a branch)
 
 git remote rm origin (TIRA A ORIGIN), git remote -v (VERIFICA)
+
+===========================================================
+Alterar "usuário" do git
+Abrir um terminal qualquer e digitar os comandos
+
+git config --global --unset credential.helper
+
+git config user.email "email"
+
+git config user.name "nome"
